@@ -26,10 +26,10 @@ python convert_to_tflite.py --model_path output/ssd_mobilenet_inference.keras --
 ```
 
 Now developing an android application in android studio
-Open Android studio
-->click on file 
--> click on new 
--> click on from version control 
+- `Open Android studio
+- `click on file 
+- `click on new 
+- `click on from version control 
 ->copy the git link provided and paste it. Gradle dependencies will start installing,
 Once the gradle dependencies are installed, you can run the project by clicking the green play button.
 
