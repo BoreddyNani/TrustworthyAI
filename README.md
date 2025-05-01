@@ -6,7 +6,7 @@ The main idea behind making object detection or object model is Transfer Learnin
 The model is trained using SGD with an initial learning rate of 0.001, 0.9 momentum,0.0005 weight decay, and batch size 32.
 we exported the pre trained model to the SavedModel format, which is required for conversion to TensorFlow Lite.
 Then converted it to .tflite file. 
-To attain the pre trained model we used the python files given in python folder
+To attain the pre trained model we used the python files from internet given in python folder
 Install the required packages using:
 ```bash
 pip install -r requirements.txt
