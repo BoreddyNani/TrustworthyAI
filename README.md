@@ -17,13 +17,13 @@ The dataset is organized in the `archive` directory with the following structure
 - `VOCtest_06-Nov-2007/` - Test images
 
 To train the model from scratch:
-bash
+```bash
 python train.py --batch_size 32 --epochs 100 --learning_rate 0.001
-
+```
 To convert the trained model to TensorFlow Lite format for deployment on mobile or edge devices:
-bash
+```bash
 python convert_to_tflite.py --model_path output/ssd_mobilenet_inference.keras --output_path output/lite-model_metadata_2.tflite
-
+```
 
 Now developing an android application in android studio
 Open Android studio,click on file, click on new , click on from version control, copy the git link provided and paste it. 
